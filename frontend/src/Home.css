@@ -1,0 +1,149 @@
+.home {
+  display: flex;
+  background-color: #f0f2f5;
+}
+
+.home__left {
+  flex: 0.3;
+  flex-direction: column;
+}
+.home__left__upper {
+  display: flex;
+  flex-direction: column;
+  padding: 31px;
+}
+.home__center {
+  flex: 0.7;
+  flex-direction: column;
+}
+.home__right {
+  flex: 0.2;
+}
+.home__center__cards {
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.home__left__icon {
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  gap: 10px;
+  cursor: pointer !important;
+}
+.home__left__icon span {
+  color: #050505;
+  font-weight: 500;
+}
+.home__center {
+  display: flex;
+  gap: 10px;
+}
+.home__center__card {
+  position: relative;
+  width: 154px;
+  height: 280px;
+  margin-top: 20px;
+}
+.home__center__img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.home__left__divider {
+  margin-right: 80px;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+}
+.card__avatar {
+  position: absolute;
+  top: 27px;
+  left: 22px;
+  width: 45px;
+  height: 45px;
+  z-index: 99999;
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+.card__avatar__post {
+  width: 45px;
+  height: 45px;
+  z-index: 99999;
+  border-radius: 50%;
+}
+.home__cenmter__user__name {
+  position: absolute;
+  bottom: 27px;
+  left: 22px;
+  color: white;
+  font-weight: bold;
+}
+
+.home__center__post {
+  width: 77%;
+}
+
+.home__center__post__input {
+  width: 76%;
+  padding: 20px;
+  margin: 24px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin-right: -26px;
+  background-color: #ececec;
+}
+
+.home__center__post__input::placeholder {
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.user__post {
+  display: flex;
+  align-items: center;
+  padding-left: 29px;
+}
+.user__post__service {
+  display: flex;
+  flex-direction: row;
+}
+.userPostListing {
+  padding: 11px;
+  margin: 12px;
+}
+.usernamedate {
+  display: flex;
+  justify-content: space-between;
+  color: #7b7373;
+}
+.userpost {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  font-family: Helvetica;
+}
+.user__post__img {
+  width: 100% !important;
+}
+.user__post__title {
+  text-align: left;
+  padding: 6px;
+  padding-top: 20px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.postupload {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: -18px;
+}

@@ -1,0 +1,106 @@
+.login {
+  display: flex;
+  flex-direction: column;
+}
+.login__header {
+  display: flex;
+  background-color: #f0f2f5;
+  height: 77vh;
+}
+.login__header__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.6;
+  background-color: #f0f2f5;
+}
+.login__header__left > img {
+  width: 200px;
+}
+
+.login__header__left > h2 {
+  width: 426px;
+  margin-left: 180px;
+}
+.login__header__right {
+  display: flex;
+  flex: 0.4;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f0f2f5;
+}
+.login__form__card {
+  height: fit-content;
+  width: 421px;
+  height: 320px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.login-form input[type="text"] {
+  padding: 17px;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+}
+.login-form input[type="password"] {
+  padding: 17px;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+}
+.btn__login {
+  background-color: #1877f2;
+  padding: 9px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login__divider {
+  margin: 10px 27px;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+.forget__account {
+  text-decoration: none;
+  color: #1877f2;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  cursor: pointer;
+}
+
+.btn__login__register {
+  background-color: #42b72a;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login__footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  margin: auto;
+  width: 100%;
+  height: 23vh;
+  justify-content: center;
+}
+.login__footer img {
+  object-fit: none;
+}

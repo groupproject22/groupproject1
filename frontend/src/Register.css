@@ -1,0 +1,102 @@
+.register {
+  display: flex;
+  flex-direction: column;
+}
+.register__header {
+  display: flex;
+  background-color: #f0f2f5;
+  height: 77vh;
+}
+.register__header__left {
+  display: flex;
+  flex: 0.6;
+  background-color: #f0f2f5;
+}
+.register__header__right {
+  display: flex;
+  flex: 0.4;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f0f2f5;
+}
+.register__form__card {
+  height: fit-content;
+  width: 421px;
+  height: 362px;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.register-form input[type="text"] {
+  padding: 17px;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+}
+.register-form input[type="password"] {
+  padding: 17px;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+}
+.btn__register {
+  background-color: #1877f2;
+  padding: 9px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.register__divider {
+  margin: 10px 27px;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+.forget__account__register {
+  text-decoration: none;
+  color: #1877f2;
+  text-align: center;
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  cursor: pointer;
+}
+.btn__register__login {
+  background-color: #42b72a;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn__register {
+  background-color: #1877f2;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.register__footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  margin: auto;
+  width: 100%;
+  height: 23vh;
+  justify-content: center;
+}
+.register__footer img {
+  object-fit: none;
+}

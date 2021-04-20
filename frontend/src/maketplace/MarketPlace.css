@@ -1,0 +1,90 @@
+.marketPlace {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.marketPlace__left {
+  flex: 0.2;
+  display: flex;
+  background-color: white;
+}
+.marketPlace__right {
+  flex: 0.8;
+  display: flex;
+}
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 13px;
+}
+.sidebar__nav__item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.sidebar__nav__icon {
+  background: #dcd6d6;
+  padding: 7px;
+  border-radius: 50%;
+}
+.new__listing {
+  outline: none;
+  background: #b2d5de;
+  border: none;
+  padding: 10px 104px;
+  color: #1c677b;
+  cursor: pointer;
+}
+.listingmodal {
+  background: white;
+  border: none;
+  outline: none;
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+}
+.listingmodal__items {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.listingmodal__item {
+  display: flex;
+  gap: 20px;
+}
+.listingmodal__item span {
+  font-weight: 500;
+}
+.marketPlace__form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.submit__item {
+  left: 70%;
+  width: 30%;
+}
+
+.marketplace__right_itemlisting {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.marketPlacePostListing {
+  width: 21%;
+  height: 23%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px;
+  gap: 2px;
+  cursor: pointer;
+}
+.item__header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
